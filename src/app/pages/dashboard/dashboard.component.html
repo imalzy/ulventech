@@ -1,0 +1,48 @@
+<mat-toolbar color="primary">
+  <span class="fill-remaining-space">Ulventech Test</span>
+</mat-toolbar>
+
+<mat-tab-group animationDuration="0ms">
+  <mat-tab label="Q1">
+    <ng-container>
+      <app-counter-text></app-counter-text>
+    </ng-container>
+  </mat-tab>
+  <mat-tab label="Q2">
+    <div class="container">
+      <h1>Reactive Form</h1>
+      <form [formGroup]="formGroup" (ngSubmit)="onSubmit()" class="form">
+        <mat-form-field appearance="outline" class="form-element">
+          <mat-label>Words Description</mat-label>
+          <input matInput formControlName="name" />
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="form-element">
+          <mat-label>Description</mat-label>
+          <textarea matInput formControlName="textare"></textarea>
+        </mat-form-field>
+
+        <div class="form-element">
+          <button mat-raised-button color="primary" type="submit" class="button">
+            Save
+          </button>
+        </div>
+      </form>
+
+      <div style="margin-top: 3rem;">
+        <h1>Table to count word</h1>
+        <table id="customers">
+          <tr>
+            <th>Word</th>
+            <th>Total</th>
+          </tr>
+          <tbody>
+            <tr *ngFor="let item of duplicateWord | async">
+              <td>{{ item.key }}</td>
+              <td>{{ item.value }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </mat-tab>
+</mat-tab-group>

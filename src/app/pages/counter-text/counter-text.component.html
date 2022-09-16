@@ -1,0 +1,8 @@
+<form [formGroup]="form">
+  <mat-form-field appearance="outline" class="form-element">
+    <mat-label>Description</mat-label>
+    <textarea matInput formControlName="address"></textarea>
+  </mat-form-field>
+</form>
+<p>Total char: {{address?.value.length}}</p>
+<p>Total whitespace: {{address?.value | whitespace}}</p>

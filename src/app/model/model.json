@@ -1,0 +1,48 @@
+{
+  "id": 5993,
+  "uid": "e332c093-5e70-47a5-9cc3-d67ea7ed0a7a",
+  "name": "Smokestack Grill",
+  "type": "Indian",
+  "description": "To deliver an exceptional shopping experience by offering the best service, value, quality, and freshest products while being good stewards of our environment and giving back to the communities we serve.",
+  "review": "Id have to say that each piece was fresh and had their own slight unique flavor twist to it, pushing the line between traditional edomae and fusion. The Hokkaido uni and the ocean trout topped with cook seaweed was the highlights of the meal. But each piece served was really something special.",
+  "logo": "https://loremflickr.com/500/500/restaurant",
+  "phone_number": "(454) 486-8968 x30477",
+  "address": "Apt. 226 47987 Hintz Springs, South Sibylstad, SD 66747",
+  "hours": {
+    "monday": {
+      "opens_at": "6:45 AM",
+      "closes_at": "1:37 PM",
+      "is_closed": true
+    },
+    "tuesday": {
+      "opens_at": "9:37 AM",
+      "closes_at": "3:42 PM",
+      "is_closed": true
+    },
+    "wednesday": {
+      "opens_at": "6:12 AM",
+      "closes_at": "9:16 PM",
+      "is_closed": true
+    },
+    "thursday": {
+      "opens_at": "11:58 AM",
+      "closes_at": "9:47 PM",
+      "is_closed": true
+    },
+    "friday": {
+      "opens_at": "9:26 AM",
+      "closes_at": "12:33 PM",
+      "is_closed": false
+    },
+    "saturday": {
+      "opens_at": "10:50 AM",
+      "closes_at": "1:32 PM",
+      "is_closed": false
+    },
+    "sunday": {
+      "opens_at": "10:19 AM",
+      "closes_at": "8:40 PM",
+      "is_closed": false
+    }
+  }
+}
